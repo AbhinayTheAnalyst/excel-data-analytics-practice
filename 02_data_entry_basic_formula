@@ -1,0 +1,45 @@
+# 📑 02_data_entry_basic_formula
+
+📌 **Goal**: Learn data entry, formatting, and basic formulas in Excel.
+
+🎯 This part is inspired by a Skill Course YouTube video. Here’s what I practiced:
+
+---
+
+## ✅ What I Practiced in Excel
+
+- 🧩 **Autofill** Employee IDs and Names for additional rows
+- 💰 Format the “**Salary**” column using **Currency Style**
+- 🔲 Applied **Borders** and **Alignment** (Center, Left, Right)
+- 📅 Changed **Date Format** to DD-MM-YYYY
+- ➕ Inserted / Deleted additional **Rows or Columns**
+- 🧮 Applied **Basic Formulas**:
+  - `=SUM()`, `=AVERAGE()`, `=MIN()`, `=MAX()`
+- 🎨 Used **Conditional Formatting** to:
+  - Highlight salaries above ₹75,000
+  - Highlight “Sales” Department using a **formula-based rule**
+
+---
+
+## 🧠 Short Summary of Formulas Used
+
+| Formula Type              | Example                            |
+|---------------------------|-------------------------------------|
+| Sum                       | `=SUM(B2:B10)`                     |
+| Average                   | `=AVERAGE(B2:B10)`                 |
+| Minimum                   | `=MIN(B2:B10)`                     |
+| Maximum                   | `=MAX(B2:B10)`                     |
+| Conditional Formatting    | `=B2>75000` or `=D2="Sales"`       |
+
+---
+
+## 📸 Screenshot (Practice Sheet)
+[📷 View Practice Image](https://photos.app.goo.gl/NosSBM1BrPL1ennC7)
+
+---
+
+> ✅ “Step-by-step learning. I’m not perfect — just consistent.”  
+> Uploading each topic for revision, portfolio & tracking growth 📈  
+> Let’s go analyst! 💪
+
+---
