@@ -37,7 +37,46 @@
 [📷 View Practice Image](https://photos.app.goo.gl/NosSBM1BrPL1ennC7)
 
 ---
+# 🎨 Conditional Formatting in Excel – Notes by AbhinayTheAnalyst
 
+## 🔍 Why Conditional Formatting?
+Conditional Formatting helps highlight cells based on their values.  
+It brings patterns, outliers, or rules visually into attention.
+
+---
+
+## ✅ What I Have Learned
+
+### 1. 🔥 Highlight Cells Based On Value
+- Example: Highlight salary > 50000
+- Use: **Home > Conditional Formatting > Highlight Cell Rules > Greater Than**
+
+---
+
+### 2. 🌈 Color Scales, Data Bars, Icon Sets
+- **Data Bars**: Show visual size of numbers.
+- **Color Scales**: Green to red based on value.
+- **Icon Sets**: Arrows, flags, etc. based on rules.
+
+---
+
+### 3. 🧠 Formula-Based Conditional Formatting
+
+#### 📌 Use this path:
+**Home > Conditional Formatting > New Rule > Use a formula to determine which cells to format**
+
+---
+
+### 🧪 Example 1: Highlight all rows where salary > 50000
+
+| Name | Age | Salary |
+|------|-----|--------|
+| Golu | 23  | 45000  |
+| Radha| 27  | 55000  |
+
+🧾 **Formula:**
+```excel
+=$C2>50000
 > ✅ “Step-by-step learning. I’m not perfect — just consistent.”  
 > Uploading each topic for revision, portfolio & tracking growth 📈  
 > Let’s go analyst! 💪
