@@ -82,3 +82,61 @@ It brings patterns, outliers, or rules visually into attention.
 > Let’s go analyst! 💪
 
 ---
+
+"""
+✅ Column C is fixed → Row 2 is dynamic.
+
+
+---
+
+🔄 Absolute vs Relative Reference (Dollar $ Sign)
+
+Reference	Meaning
+
+A1	Relative (moves with drag)
+$A$1	Absolute (fixed)
+$A1	Fixed column, changing row
+A$1	Fixed row, changing column
+
+
+
+
+⚠️ Important Tip
+
+If formula misbehaves in Conditional Formatting, check your $ signs.
+Use $ only where you want to lock row or column while formatting.
+
+
+---
+
+❓ Real-World Case
+
+Use case: In employee data, highlight rows where:
+
+Salary > 50000
+
+Age < 25
+
+
+Formula to use:
+
+=AND($C2>50000, $B2<25)
+
+
+---
+
+🧠 Summary
+
+Conditional Formatting = Data Analysis + Visual Insight.
+
+Learn $ usage properly to avoid mistakes.
+
+Use real datasets like Employee salary, Sales reports etc.
+
+
+
+---
+
+> 💬 "At first, I didn’t understand the $ concept, but after trying real examples and seeing how rows/columns shift, it became clear!"
+— Abhinay, learning from experience
+"""
