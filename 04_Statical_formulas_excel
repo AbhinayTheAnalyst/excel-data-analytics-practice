@@ -1,0 +1,114 @@
+📊 04_Statistical_Formula_Excel
+
+📁 Dataset Description: Dummy Sales Data
+
+Date	Region	Product	Category	Salesperson	Units Sold	Unit Price	Total Sale
+
+2023-01-02	North	Notebook	Stationery	A Sharma	10	50	500
+2023-01-03	West	Pen	Stationery	R Verma	20	10	200
+2023-01-04	East	Chair	Furniture	P Singh	5	1000	5000
+
+
+
+---
+
+🧮 Covered Formulas with Use Cases
+
+🔢 Basic Statistical Formulas
+
+Formula	Description	Example
+
+=SUM(range)	Adds all values in a range	=SUM(H2:H100) for total sales
+=AVERAGE(range)	Calculates the mean	=AVERAGE(G2:G100) for average unit price
+=COUNT(range)	Counts numeric values	=COUNT(G2:G100)
+=COUNTA(range)	Counts non-empty cells	=COUNTA(B2:B100)
+=COUNTIF(range,crit)	Counts values based on a condition	=COUNTIF(B2:B100,"North")
+=SUMIF(range, crit, sum_range)	Sums based on condition	=SUMIF(B2:B100,"North",H2:H100)
+=ROUND(number, digits)	Rounds numbers to specific decimal places	=ROUND(AVERAGE(G2:G100), 2)
+
+
+
+---
+
+🧮 Advanced Statistical Formulas
+
+Formula	Description	Example
+
+=MEDIAN(range)	Middle value	=MEDIAN(H2:H100)
+=MODE.SNGL(range)	Most frequent value	=MODE.SNGL(G2:G100)
+=STDEV.P(range)	Standard deviation (entire population)	=STDEV.P(G2:G100)
+=STDEV.S(range)	Sample standard deviation	=STDEV.S(G2:G100)
+=VAR.P(range)	Variance (population)	=VAR.P(G2:G100)
+=VAR.S(range)	Variance (sample)	=VAR.S(G2:G100)
+=RANK(number, range)	Rank of a number in a dataset	=RANK(H2,H2:H100)
+=PERCENTILE.INC(range,k)	k-th percentile	=PERCENTILE.INC(G2:G100,0.9)
+=QUARTILE.INC(range, quart)	Returns quartile	=QUARTILE.INC(G2:G100,1)
+=LARGE(range,k)	k-th largest value	=LARGE(H2:H100,3)
+=SMALL(range,k)	k-th smallest value	=SMALL(H2:H100,3)
+=MAX(range)	Maximum value	=MAX(H2:H100)
+=MIN(range)	Minimum value	=MIN(H2:H100)
+=ABS(number)	Absolute value	=ABS(A1)
+=IFERROR(formula, value)	Error handling	=IFERROR(H2/G2,"Invalid")
+
+
+
+---
+
+📅 Date & Time Formulas (Also Useful in Statistics)
+
+Formula	Description	Example
+
+=TODAY()	Returns current date	
+=NOW()	Returns current date and time	
+=DATEDIF(start,end,"y/m/d")	Calculates date difference	=DATEDIF(A2,TODAY(),"y") & " years"
+=YEAR(date)	Extracts year	=YEAR(A2)
+=MONTH(date)	Extracts month	=MONTH(A2)
+=DAY(date)	Extracts day	=DAY(A2)
+=EOMONTH(start_date, months)	End of the month	=EOMONTH(TODAY(),0)
+=NETWORKDAYS(start_date,end_date)	Working days between dates (excluding weekends)	=NETWORKDAYS(A2,TODAY())
+
+
+
+---
+
+💼 Real-World Use Cases
+
+Sales Analysis – Calculate average sales, region-wise totals using SUMIF, and understand trends with STDEV.S.
+
+HR/Attendance – Use NETWORKDAYS and DATEDIF for employee tenure and leave days.
+
+Student Data – Use RANK, QUARTILE, and PERCENTILE to assign performance percentiles.
+
+Customer Service – Analyze service request durations using date formulas.
+
+
+
+---
+
+🛠 Why Not Only Pivot?
+
+While Pivot Tables are great for summary, formulas:
+
+Allow custom logic.
+
+Work in dynamic dashboards.
+
+Are better for automation and conditional analysis.
+
+Provide more fine-grained control.
+
+
+
+---
+
+✅ What You’ll Learn
+
+Build a strong statistical foundation with Excel.
+
+Use formulas alongside Pivots for more control.
+
+Analyze real-life data without writing code.
+
+Become confident in Excel interviews and reports.
+
+
