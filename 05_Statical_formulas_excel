@@ -50,6 +50,27 @@ Formula	Description	Example
 =ABS(number)	Absolute value	=ABS(A1)
 =IFERROR(formula, value)	Error handling	=IFERROR(H2/G2,"Invalid")
 
+### 📊 Why Use Statistical Formulas in Excel?
+
+While the Status Bar gives quick values like Sum, Average, Count,
+Statistical formulas are essential for:
+
+1. ✅ Permanent, visible results in your sheet
+2. ✅ Auto-updating with changing data
+3. ✅ Conditional logic using IF, AVERAGEIF, etc.
+4. ✅ Creating dynamic dashboards and reports
+5. ✅ Sharing sheets professionally with clear calculations
+
+#### Common Statistical Functions:
+- `=SUM(range)`
+- `=AVERAGE(range)`
+- `=COUNT(range)`
+- `=MAX(range)`
+- `=MIN(range)`
+- `=MEDIAN(range)`
+- `=MODE(range)`
+- `=STDEV.P(range)` — (Standard Deviation for population)
+
 
 
 ---
